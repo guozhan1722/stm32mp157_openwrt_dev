@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Copyright (C) 2024 Bootlin
+#
+
+LUCI := uhttpd luci luci-ssl luci-theme-openwrt-2020 \
+	luci-app-ledtrig-usbport
+
+TESTS := stress-ng iperf3
+
+define Device/Demo
+  DEVICE_VARIANT := (demo)
+  DEVICE_PACKAGES += $(LUCI) $(TESTS)
+endef
+
+define Device/Demo-stm32mp2
+  $(call Device/Demo)
+  DEVICE_PACKAGES += kmod-nvmem-stm32-tamp \
+		     kmod-stm32-rproc \
+		     $(if $(filter-out stm32mp235f-dk stm32mp215f-dk,$(1)), kmod-stm32-m0-rproc) \
+		     kmod-stm32-ipcc \
+		     kmod-virtio-rpmsg-bus \
+		     rproc \
+		     $(if $(filter-out stm32mp215f-dk,$(1)), stm32-rproc-firmware-stm32mp2-ucsi-$(1)) \
+		     kmod-rpmsg-irq \
+		     kmod-i2c-rpmsg \
+		     kmod-ucsi-stm32g0 \
+		     $(if $(filter-out stm32mp215f-dk,$(1)), kmod-usb3) \
+		     kmod-usb-gadget-ncm \
+		     usbgadget
+endef
+
+define Device/stm32mp157f-dk2-demo
+  $(call Device/stm32mp157f-dk2)
+  $(call Device/Demo)
+  DEVICE_NAME := stm32mp157f-dk2
+endef
+
+define Device/stm32mp135f-dk-demo
+  $(call Device/stm32mp135f-dk)
+  $(call Device/Demo)
+  DEVICE_NAME := stm32mp135f-dk
+endef
+
+define Device/stm32mp257f-ev1-demo
+  $(call Device/stm32mp257f-ev1)
+  $(call Device/Demo-stm32mp2,stm32mp257f-ev1)
+  DEVICE_NAME := stm32mp257f-ev1
+  DEVICE_PACKAGES += kmod-pcie-stm32 \
+		     pciutils
+endef
+
+define Device/stm32mp257f-dk-demo
+  $(call Device/stm32mp257f-dk)
+  $(call Device/Demo-stm32mp2,stm32mp257f-dk)
+  DEVICE_NAME := stm32mp257f-dk
+endef
+
+define Device/stm32mp235f-dk-demo
+  $(call Device/stm32mp235f-dk)
+  $(call Device/Demo-stm32mp2,stm32mp235f-dk)
+  DEVICE_NAME := stm32mp235f-dk
+endef
+
+define Device/stm32mp215f-dk-demo
+  $(call Device/stm32mp215f-dk)
+  $(call Device/Demo-stm32mp2,stm32mp215f-dk)
+  DEVICE_NAME := stm32mp215f-dk
+  DEVICE_PACKAGES += kmod-usb-dwc2 \
+		     kmod-adc-typec
+endef
+
+ifeq ($(SUBTARGET),stm32mp1)
+  TARGET_DEVICES += \
+		    stm32mp157f-dk2-demo \
+		    stm32mp135f-dk-demo
+endif
+
+ifeq ($(SUBTARGET),stm32mp2)
+  TARGET_DEVICES += \
+		    stm32mp257f-ev1-demo \
+		    stm32mp257f-dk-demo \
+		    stm32mp235f-dk-demo \
+		    stm32mp215f-dk-demo
+endif

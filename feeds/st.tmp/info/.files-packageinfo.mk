@@ -1,0 +1,8 @@
+$(eval $(call PackageDir,package_boot_arm-trusted-firmware-stm32,package/boot/arm-trusted-firmware-stm32,))
+$(eval $(call PackageDir,package_boot_optee-os-stm32,package/boot/optee-os-stm32,))
+$(eval $(call PackageDir,package_boot_uboot-stm32,package/boot/uboot-stm32,))
+$(eval $(call PackageDir,package_firmware_murata-firmware,package/firmware/murata-firmware,))
+$(eval $(call PackageDir,package_firmware_murata-nvram,package/firmware/murata-nvram,))
+$(eval $(call PackageDir,package_firmware_stm32-rproc-firmware,package/firmware/stm32-rproc-firmware,))
+$(eval $(call PackageDir,package_utils_rproc,package/utils/rproc,))
+$(eval $(call PackageDir,package_utils_usbgadget,package/utils/usbgadget,))

@@ -1,0 +1,8 @@
+package/boot/arm-trusted-firmware-stm32
+package/boot/optee-os-stm32
+package/boot/uboot-stm32
+package/firmware/murata-firmware
+package/firmware/murata-nvram
+package/firmware/stm32-rproc-firmware
+package/utils/rproc
+package/utils/usbgadget
