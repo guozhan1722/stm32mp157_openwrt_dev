@@ -14,7 +14,7 @@
 /overlay
 /llvm-bpf*
 /dl
-/feeds
+/feeds/*.tmp
 key-build*
 private-key.pem
 public-key.pem
