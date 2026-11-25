@@ -1,0 +1,4 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_hal_msp.c:65:6:HAL_MspInit	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_hal_msp.c:81:6:HAL_MspDeInit	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_hal_msp.c:93:6:HAL_IPCC_MspInit	2
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_hal_msp.c:112:6:HAL_IPCC_MspDeInit	2

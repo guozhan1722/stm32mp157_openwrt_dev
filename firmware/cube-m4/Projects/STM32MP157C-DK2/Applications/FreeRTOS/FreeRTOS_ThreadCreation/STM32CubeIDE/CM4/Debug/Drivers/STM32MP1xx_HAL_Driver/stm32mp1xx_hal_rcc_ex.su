@@ -1,0 +1,8 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:84:19:RCCEx_PLL2_Config	16	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:261:19:RCCEx_PLL3_Config	16	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:431:19:RCCEx_PLL4_Config	16	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:638:19:HAL_RCCEx_PeriphCLKConfig	296	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:1896:6:HAL_RCCEx_GetPeriphCLKConfig	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:2012:6:HAL_RCCEx_EnableLSECSS	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:2025:6:HAL_RCCEx_DisableLSECSS	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_rcc_ex.c:2041:10:HAL_RCCEx_GetPeriphCLKFreq	48	static

@@ -1,0 +1,8 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:356:13:LED_Thread2	2
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:317:13:LED_Thread1	2
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:298:13:MX_IPCC_Init	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:185:6:SystemClock_Config	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:83:5:main	3
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:395:6:HAL_TIM_PeriodElapsedCallback	2
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:408:6:CoproSync_ShutdownCb	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/main.c:424:6:Error_Handler	1

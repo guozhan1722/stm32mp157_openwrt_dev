@@ -1,0 +1,17 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:100:6:HAL_PWR_EnableBkUpAccess	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:113:6:HAL_PWR_DisableBkUpAccess	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:261:6:HAL_PWR_ConfigPVD	4
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:296:6:HAL_PWR_EnablePVD	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:306:6:HAL_PWR_DisablePVD	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:337:6:HAL_PWR_EnableWakeUpPin	7
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:399:6:HAL_PWR_DisableWakeUpPin	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:423:6:HAL_PWR_EnableWakeUpPinIT	7
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:467:6:HAL_PWR_DisableWakeUpPinIT	7
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:518:6:HAL_PWR_EnterSLEEPMode	2
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:574:6:HAL_PWR_EnterSTOPMode	3
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:652:6:HAL_PWR_EnterSTANDBYMode	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:699:6:HAL_PWR_EnableSleepOnExit	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:714:6:HAL_PWR_DisableSleepOnExit	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:728:6:HAL_PWR_EnableSEVOnPend	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:742:6:HAL_PWR_DisableSEVOnPend	1
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Drivers/STM32MP1xx_HAL_Driver/Src/stm32mp1xx_hal_pwr.c:754:13:HAL_PWR_PVDCallback	1

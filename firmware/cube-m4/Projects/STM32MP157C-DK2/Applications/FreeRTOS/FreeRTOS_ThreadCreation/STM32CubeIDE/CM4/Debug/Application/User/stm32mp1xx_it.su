@@ -1,0 +1,5 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_it.c:77:6:NMI_Handler	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_it.c:90:6:HardFault_Handler	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_it.c:112:6:TIM2_IRQHandler	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_it.c:130:6:IPCC_RX1_IRQHandler	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/stm32mp1xx_it.c:135:6:IPCC_TX1_IRQHandler	8	static

@@ -1,0 +1,2 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Examples/GPIO/GPIO_EXTI/Src/lock_resource.c:61:23:Periph_Lock	24	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Examples/GPIO/GPIO_EXTI/Src/lock_resource.c:88:6:Periph_Unlock	16	static

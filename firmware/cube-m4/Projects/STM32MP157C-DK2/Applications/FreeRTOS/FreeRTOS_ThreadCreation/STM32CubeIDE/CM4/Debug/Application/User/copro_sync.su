@@ -1,0 +1,6 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:147:13:CoproSync_RProcStateUpdateCb	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:131:13:CoproSync_ShutdownCb	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:95:20:CoproSync_Init	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:113:20:CoproSync_DeInit	8	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:158:23:CoproSync_GetRProcState	0	static
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/copro_sync.c:168:20:CoproSync_NotifyProcStateUdpate	8	static

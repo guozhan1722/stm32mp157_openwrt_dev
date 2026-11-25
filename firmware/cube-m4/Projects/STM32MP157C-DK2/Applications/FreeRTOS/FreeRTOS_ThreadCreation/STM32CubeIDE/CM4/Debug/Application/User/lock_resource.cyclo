@@ -1,0 +1,2 @@
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/lock_resource.c:60:23:Periph_Lock	17
+/home/jim/projects/stm32mp157_openwrt_dev/firmware/cube-m4/Projects/STM32MP157C-DK2/Applications/FreeRTOS/FreeRTOS_ThreadCreation/Src/lock_resource.c:87:6:Periph_Unlock	14
