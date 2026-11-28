@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dk2-hdmi-splash
-PKG_RELEASE:=3
+PKG_RELEASE:=7
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -14,9 +14,11 @@ endef
 
 define Build/Compile
 	$(TARGET_CC) $(TARGET_CPPFLAGS) $(TARGET_CFLAGS) $(TARGET_LDFLAGS) \
-		-o $(PKG_BUILD_DIR)/dk2-hdmi-splash $(PKG_BUILD_DIR)/dk2-hdmi-splash.c
+		-o $(PKG_BUILD_DIR)/dk2-hdmi-splash $(PKG_BUILD_DIR)/dk2-hdmi-splash.c \
+		$(PKG_BUILD_DIR)/dk2-touch.c
 	$(TARGET_CC) $(TARGET_CPPFLAGS) $(TARGET_CFLAGS) $(TARGET_LDFLAGS) \
-		-o $(PKG_BUILD_DIR)/dk2-wait-for-tap $(PKG_BUILD_DIR)/dk2-wait-for-tap.c
+		-o $(PKG_BUILD_DIR)/dk2-wait-for-tap $(PKG_BUILD_DIR)/dk2-wait-for-tap.c \
+		$(PKG_BUILD_DIR)/dk2-touch.c
 endef
 
 define Package/dk2-hdmi-splash/install
